@@ -1,15 +1,15 @@
 import * as firebase from 'firebase';
 require('@firebase/firestore');
 var firebaseConfig = {
-        apiKey: "AIzaSyAVLInk6RKBhi730mWRMnOF3jxc5qD068k",
-        authDomain: "wireless-library-79cef.firebaseapp.com",
-        databaseURL: "https://wireless-library-79cef.firebaseio.com",
-        projectId: "wireless-library-79cef",
-        storageBucket: "wireless-library-79cef.appspot.com",
-        messagingSenderId: "831730083079",
-        appId: "1:831730083079:web:40c436d386adff906a11a2",
-        measurementId: "G-SRJDTLFGKM"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyD-weFxyNnKhznOqrY836qh4EtszTwCKFI",
+    authDomain: "wily-a90b3.firebaseapp.com",
+    databaseURL: "https://wily-a90b3.firebaseio.com",
+    projectId: "wily-a90b3",
+    storageBucket: "wily-a90b3.appspot.com",
+    messagingSenderId: "833043568352",
+    appId: "1:833043568352:web:0e0a1e5ef136f9d43de285",
+    measurementId: "G-G68L0LMHRT"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
     export default firebase.firestore();

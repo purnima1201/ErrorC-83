@@ -19,6 +19,7 @@ export default class BookDonateScreen extends Component{
   constructor(){
     super()
     this.state = {
+      userId  : firebase.auth().currentUser.email,
       requestedBooksList : []
     }
   this.requestRef= null

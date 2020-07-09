@@ -9,6 +9,7 @@ import NotificationScreen from '../screens/NotificationScreen';
 export const AppDrawerNavigator =createDrawerNavigator({
     Home:{screen:AppTabNavigator},
     Setting:{screen:SettingScreen},
+    Notification : {screen : NotificationScreen},
     MyDonations:{screen:MyDonationScreen}
 },
 {
